@@ -20,6 +20,9 @@ public class LoginPage {
 		System.out.println(driver.getTitle());
 		String expectText=driver.findElement(By.xpath("//td/marquee")).getText();
 	    Assert.assertEquals("Welcome To Manager's Page of Guru99 Bank", expectText);
+	    
+	    System.out.println("Hello World ");
+	    System.out.println("Hello Peeps");
 		
 		
 
