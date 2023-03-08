@@ -21,9 +21,16 @@ public class LoginPage {
 		String expectText=driver.findElement(By.xpath("//td/marquee")).getText();
 	    Assert.assertEquals("Welcome To Manager's Page of Guru99 Bank", expectText);
 	    
+	 
+	    
 	    System.out.println("Hello World ");
 	    System.out.println("Hello Peeps");
-		
+	    
+	    //zdjbf
+	    
+	    System.out.println("Hello World2 ");
+	    System.out.println("Hello Peeps2");
+	    System.out.println("Hello Peeps3");
 		
 
 	}
